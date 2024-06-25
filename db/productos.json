@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Fuente 1000w" ,
+        "precio": 182000 ,
+        "img": "img/Fuente 1000w 80 plus.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Procesador ryzen 3" ,
+        "precio": 102000,
+        "img": "img/Procesador ryzen 3.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Procesador ryzen 5" ,
+        "precio": 245000 ,
+        "img": "img/Procesador Ryzen 5.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Radeon rx 7500gb" ,
+        "precio": 408000,
+        "img": "img/Radeon RX 7500 8gb.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Gabinete" ,
+        "precio": 74500 ,
+        "img": "img/Gabinete Antec.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Monitor" ,
+        "precio": 264000,
+        "img": "img/Monitor Samsung.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Cooler" ,
+        "precio": 240290,
+        "img": "img/Cooler CPU.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Memoria ram" ,
+        "precio": 54200 ,
+        "img": "img/Memoria ram 16gb kingstone.jpg"
+    }
+]
