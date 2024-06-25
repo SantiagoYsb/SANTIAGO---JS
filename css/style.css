@@ -22,7 +22,6 @@
     font-size: 30px;
   }
 
-  /* Posiciona el contenedor del carrito en la parte superior derecha */
 .cart-container {
     position: fixed; 
     top: 10px;
@@ -37,7 +36,6 @@
     z-index: 1000; 
 }
 
-/* Estilos para el enlace del carrito */
 .cart-button {
     background-color: #debd1c; 
     color: white; 
@@ -49,17 +47,16 @@
 }
 
 .cart-button:hover {
-    background-color: #ef7810; /* Fondo al pasar el ratón */
+    background-color: #ef7810;
 }
 
-/* Estilos para el icono del carrito */
+
 .fa-cart-shopping {
-    font-size: 1.5em; /* Tamaño del icono */
-    color: #28a745; /* Color del icono */
+    font-size: 1.5em; 
+    color: #28a745; 
 }
 
 
-  /* Contenedor de productos usando Flexbox */
 #misProductos {
     display: flex;
     flex-wrap: wrap;
@@ -67,7 +64,6 @@
     justify-content: center; 
 }
 
-/* Estilos para las tarjetas de productos */
 .card {
     position: relative;
     border: 1px solid #6c3801;
@@ -81,7 +77,6 @@
     max-width: 300px;
 }
 
-/* Estilos para el contenido de la tarjeta */
 .card-content {
     display: flex;
     flex-direction: column;
@@ -89,27 +84,23 @@
     padding-bottom: 40px; 
 }
 
-/* Estilos para la imagen del producto */
 .product-img {
     width: 200px; 
     height: auto;
     margin-bottom: 10px;
 }
 
-/* Estilos para el nombre del producto */
 .product-name {
     font-size: 1.5em;
     margin: 10px 0;
 }
 
-/* Estilos para el precio del producto */
 .product-price {
     font-size: 1.2em;
     color: #ffffff;
     margin: 10px 0;
 }
 
-/* Estilos para el botón de agregar al carrito */
 .add-to-cart-btn {
     background-color: #9f5a06;
     color: white;
@@ -130,9 +121,6 @@
 }
 
 
-
-
-  /*CARRITO DE COMPRAS*/
 
   body {
     background-color: #9c7c4ade;

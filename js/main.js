@@ -1,4 +1,3 @@
-// Función para cargar el carrito desde localStorage
 const cargarCarrito = () => {
     const carritoGuardado = localStorage.getItem('carrito');
     if (carritoGuardado) {
@@ -7,7 +6,6 @@ const cargarCarrito = () => {
     return [];
 };
 
-// Función para guardar el carrito en localStorage
 const guardarCarrito = () => {
     localStorage.setItem('carrito', JSON.stringify(carrito));
 };
@@ -46,13 +44,13 @@ function misProductos(productos) {
                 duration: 2000,
                 newWindow: true,
                 close: true,
-                gravity: "top", // `top` or `bottom`
-                position: "center", // `left`, `center` or `right`
-                stopOnFocus: true, // Prevents dismissing of toast on hover
+                gravity: "top", 
+                position: "center", 
+                stopOnFocus: true, 
                 style: {
                     background: "linear-gradient(to right, #debd1c, #96c93d)",
                 },
-                onClick: function() {} // Callback after click
+                onClick: function() {} 
             }).showToast();
         });
     });

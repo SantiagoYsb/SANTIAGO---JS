@@ -1,6 +1,6 @@
 const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
-// Cargar el carrito al inicio
+
 console.log(carrito);
 let tabla = document.getElementById("tabla");
 
@@ -28,9 +28,7 @@ const actualizarCarrito = () => {
     infoTotal.innerText = "Total a pagar $: " + totalCarrito;
 };
 
-// Cargar el carrito al inicio y actualizar la tabla
 actualizarCarrito();
 
-// Añadir evento al botón para vaciar el carrito
 const vaciarCarritoBtn = document.getElementById('vaciarCarritoBtn');
 vaciarCarritoBtn.addEventListener('click', vaciarCarrito);
